@@ -1,0 +1,26 @@
+$cor-primaria: #c03d3d;
+
+@mixin botao($cor,  $tamanho){
+    background-color: $cor;
+    padding: $tamanho;
+    border-radius: 0;
+    text-align: center;
+}
+
+.btn-primary{
+    @include botao($cor-primaria, 10px)
+}
+
+.btn-danger{
+    @include botao(red, 15px)
+}
+
+h1{
+    color:$cor-primaria;
+}
+
+header{
+    h1{
+        color: $cor-primaria;
+    }
+}

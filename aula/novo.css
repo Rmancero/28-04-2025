@@ -1,0 +1,23 @@
+.btn-primary {
+  background-color: #c03d3d;
+  padding: 10px;
+  border-radius: 0;
+  text-align: center;
+}
+
+.btn-danger {
+  background-color: red;
+  padding: 15px;
+  border-radius: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #c03d3d;
+}
+
+header h1 {
+  color: #c03d3d;
+}
+
+/*# sourceMappingURL=novo.css.map */
